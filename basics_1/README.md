@@ -23,9 +23,7 @@ with rep.trigger.on_frame():
     
     with camera:
         rep.modify.pose(
-            position=rep.distribution.uniform((350, 350, 350), (400, 400, 400)),
-            # I add 'look_at' to ensure the camera doesn't just stare into the void
-            look_at="/World/Cube" # Or point at a central Xform/Null
+            position=rep.distribution.uniform((350, 350, 350), (400, 400, 400))
         )
 ```
 ## Semantics schema Editor
