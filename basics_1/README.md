@@ -34,5 +34,11 @@ Click Add to define the semantic labeling for your objects. This allows you to c
 After that, Now I can see the segmentation from the viewport of sensor output.
 ![sensor outputs](images/sensor_outputs.png)
 
-
+---
+## Synthetic data recorder
 ![synthetic data recorder](images/synthetic_data_recorder.png)
+
+### Key Settings:
+* **Writer Selection:** Check the specific data types needed (e.g., `rgb`, `semantic_segmentation`, `colorize_semantic_segmentation`).
+* **Output Path:** Set the **Working Directory** to define where the generated files will be saved.
+* **Capture Control:** Set the **Number of frames** to determine how many data samples to generate, then click **Start**.
