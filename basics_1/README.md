@@ -32,5 +32,7 @@ with rep.trigger.on_frame():
 Click Add to define the semantic labeling for your objects. This allows you to control the segmentation data captured in your renders.
 
 After that, Now I can see the segmentation from the viewport of sensor output.
+![sensor outputs](images/sensor_outputs.png)
+
 
 ![synthetic data recorder](images/synthetic_data_recorder.png)
