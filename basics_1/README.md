@@ -2,6 +2,7 @@
 ![GUI](images/GUI_setup.png)
 ---
 
+## Basic script for randomizing
 ```python
 import omni.replicator.core as rep
 
@@ -27,5 +28,7 @@ with rep.trigger.on_frame():
             look_at="/World/Cube" # Or point at a central Xform/Null
         )
 ```
+## Semantics schema Editor
 ![Semantics_Editor](images/Semantics_schema_Editor.png)
+
 Click Add to define the semantic labeling for your objects. This allows you to control the segmentation data captured in your renders.
