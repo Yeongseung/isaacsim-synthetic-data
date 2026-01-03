@@ -1,4 +1,4 @@
-# GUI setup
+# GUI
 ![GUI](images/GUI_setup.png)
 ---
 
